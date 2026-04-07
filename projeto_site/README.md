@@ -1,2 +1,0 @@
-# Maysite
-DJango Personal Blog
