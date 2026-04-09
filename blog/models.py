@@ -1,4 +1,3 @@
-# blog/models.py
 from django.db import models
 
 class Post(models.Model):
@@ -14,7 +13,9 @@ class Post(models.Model):
         max_length=10,
         choices=STATUS_CHOICES,
         default='draft'
-    )  # novo campo para rascunho/publicado
+    )
+    created_on = models.DateTimeField(auto_now_add=True)   # data de criação
+    updated_on = models.DateTimeField(auto_now=True)       # data de atualização
 
     def __str__(self):
         return self.title
