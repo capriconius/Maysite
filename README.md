@@ -1,10 +1,6 @@
-# Maysite
-DJango Personal, 
-Este Pull Request integra a branch Setup na branch main.  
-Ele adiciona os arquivos iniciais do projeto Django, incluindo:
-- Estrutura base do projeto
-- Configuração do .gitignore
-- Criação do README.md
+## Histórico de Pull Requests
 
-Abaixo segue a captura de tela do projeto funcionando:
-<img width="1919" height="971" alt="Captura de tela do projeto Django rodando" src="URL_da_imagem" />
+- **PR #7**: Implementa o modelo `Post` e configurações iniciais.
+- **PR #8**: Nova versão baseada no PR #7, adicionando campos `status` e `slug` ao modelo `Post`, além de ajustes no Django Admin.
+
+> O PR #8 é uma continuação direta do PR #7.
