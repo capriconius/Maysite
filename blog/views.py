@@ -6,4 +6,5 @@ class PostView(ListView):
     template_name = "blog/home.html"
 
     def get_queryset(self):
+        # Filtra apenas os posts publicados
         return Post.objects.filter(status="publicado")
