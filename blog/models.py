@@ -14,8 +14,12 @@ class Post(models.Model):
         choices=STATUS_CHOICES,
         default='draft'
     )
-    created_on = models.DateTimeField(auto_now_add=True)   # data de criação
-    updated_on = models.DateTimeField(auto_now=True)       # data de atualização
+    created_on = models.DateTimeField(auto_now_add=True)
+    updated_on = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.title
+
+
+
+
